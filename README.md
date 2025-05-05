@@ -19,12 +19,11 @@ This project contains a Jupyter Notebook that explores the use of Sentence Trans
 
 ##  Project Structure
 
-.
-├── Dockerfile
-└── Sentence_Transformers_&_Multi_Task_Learning.ipynb
-└── writeup.md
-└── README.md
-
+* Dockerfile
+* Sentence_Transformers_&_Multi_Task_Learning.ipynb
+* writeup.md
+* README.md
+* requirements.txt
 
 ##  Getting Started
 
@@ -37,6 +36,7 @@ This project contains a Jupyter Notebook that explores the use of Sentence Trans
 ```bash
 git clone https://github.com/giripranay/multitask_sentence_transformer.git
 cd multitask_sentence_transformer
+```
 
 ### Building the Docker Image
 
@@ -45,17 +45,18 @@ cd multitask_sentence_transformer
 
 ```bash
 docker build -t sentence-transformer .
+```
 
 ### Running the Docker Container
 3. Once the image is built, you can start a container using:
 ```bash
 docker run -p 8888:8888 sentence-transformer
-
+```
 ### Accessing the Notebook
 
 Open your browser and go to:
 
 ```bash
 http://localhost:8888
-
+```
 

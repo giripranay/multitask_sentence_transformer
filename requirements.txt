@@ -1,2 +1,10 @@
 torch
 transformers
+jupyter
+torch
+tqdm
+scikit-learn
+matplotlib
+pandas
+numpy
+ipykernel
